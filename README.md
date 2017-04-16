@@ -1,6 +1,15 @@
-# coloardoRent
-The rent is too damn high in Colorado
+#Rent Prices in Colorado 1996 - 2015
 
-Analyzing data from [data.coloardo.gov](https://data.colorado.gov/) [Rent database](https://data.colorado.gov/Housing/Rents-by-Type-of-Apartment-in-Colorado/cmr9-ue2w).
+Part of a portfolio piece to exhibit current skillset in `R`.
 
-Analysis coming soon.
+This piece includes:
+
+* Pulling data with the `RSocrata` package.
+* Analyzing & summarizing data with `dplyr`.
+* Automating reports with `rmarkdown`.
+
+You can download and reproduce this report by running `createReport.sh`.
+
+You will also need an API token. [You can sign up for one here](https://dev.socrata.com/foundry/data.colorado.gov/yifv-9mje).
+
+The full report can be found at [`analysis/README.md`](analysis/README.md)
