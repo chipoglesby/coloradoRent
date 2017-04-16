@@ -11,3 +11,5 @@ This piece includes:
 You can download and reproduce this report by running `createReport.sh`.
 
 You will also need an API token. [You can sign up for one here](https://dev.socrata.com/foundry/data.colorado.gov/yifv-9mje).
+
+The full report can be found at [`analysis/README.md`](analysis/README.md)
