@@ -40,3 +40,9 @@ the largest decrease in rent between `r min(coloradoRent$year)` and
 
 
 ![](`r paste("../images/rentDecrease/", gsub('[^0-9a-z]', '', tolower(rentDecrease$subregion[rentDecrease$delta == min(rentDecrease$delta)])),".png", sep ="")`)
+
+### As of `r max(coloradoRent$year)`, what are rent prices?
+
+The most expensive apartment to rent is a `r  tolower(coloradoRent$apartmenttype[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == max(coloradoRent$averagerent)])` in `r coloradoRent$subregion[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == max(coloradoRent$averagerent)]` which goes for `r paste("$",round(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == max(coloradoRent$averagerent)],2), sep = "")` per month.
+
+On the opposite end of the sepectrum, you can rent a very affordable `r tolower(coloradoRent$apartmenttype[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)])])` in `r coloradoRent$subregion[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)])]` for `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)]),2), sep = "")` per month!
