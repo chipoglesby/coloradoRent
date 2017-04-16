@@ -1,28 +1,26 @@
 ---
-title: "reportTemplate.Rmd"
-output: html_document
+title: '`r paste("Rent Prices in Colorado", min(coloradoRent$year), "-", max(coloradoRent$year), sep = " ")`'
+output: github_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r begin, echo = FALSE, message = FALSE, warning = FALSE}
 ```
 
-## R Markdown
+## Is the rent is too damn high in Colorado?
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Let's analyze data from the [data.coloardo.gov](https://data.colorado.gov/) [Rent database](https://data.colorado.gov/Housing/Rents-by-Type-of-Apartment-in-Colorado/cmr9-ue2w)
+and find some afforable places to rent around Colorado.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Rent Changes Over Time
+How have rents changed between `r min(coloradoRent$year)` and 
+`r max(coloradoRent$year)`?
 
-```{r cars}
-summary(cars)
-```
+`r rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)]`
+apartments in
+`r rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)]` saw
+the largest increase in rent between `r min(coloradoRent$year)` and 
+`r max(coloradoRent$year)`. During this 
+`r sum(max(coloradoRent$year) - min(coloradoRent$year))` year period, rent rose
+`r max(rentIncrease$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)] & coloradoRent$subregion == rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)]]),2), sep = "")` to `r paste("$", round(max(coloradoRent$averagerent[coloradoRent$apartmenttype == rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)]  & coloradoRent$subregion == rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)]]),2), sep = "")`.
 
-## Including Plots
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![](`r paste("images/rentIncrease/", gsub('[^0-9a-z]', '', tolower(rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)])),".png", sep ="")`)
