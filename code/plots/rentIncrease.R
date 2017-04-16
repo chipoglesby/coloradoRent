@@ -1,15 +1,6 @@
 library(dplyr)
 library(ggplot2)
 
-rentIncrease <- coloradoRent %>% 
-  group_by(subregion, apartmenttype) %>%
-  na.omit() %>% 
-  summarize(delta = 
-    round(sum(max(averagerent[year == max(year)]) - 
-    min(averagerent[year == min(year)])) / 
-    min(averagerent[year == min(year)]) * 100, 2)) %>% 
-  filter(delta == max(delta))
-
 if(dir.exists("images/rentIncrease") == FALSE) {
   dir.create("images/rentIncrease")
   for (i in 1:nrow(rentIncrease)) {

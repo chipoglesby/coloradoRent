@@ -9,7 +9,7 @@ source("code/load.R")
 
 # ---- analysis ----
 # Step Two: Analyzing data for report:
-# source("code/functions.R")
+ source("code/analysis.R")
 
 # ---- plots ----
 # Step Three: Analyzing data for report:
@@ -18,4 +18,4 @@ source("code/plots/rentChange.R")
 
 # ---- knit ----
 # Step Four: Render Report
-rmarkdown::render('rmd/reportTemplate.Rmd', 'github_document', '../README.md')
+rmarkdown::render('rmd/analysis.Rmd', 'github_document', '../analysis/README.md')
