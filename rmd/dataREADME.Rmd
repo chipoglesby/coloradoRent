@@ -1,0 +1,12 @@
+---
+title: "Data Information"
+author: "Chip Oglesby"
+output: 
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
+---
+
+Data for [Rents by Type of Apartment in Colorado](https://data.colorado.gov/Housing/Rents-by-Type-of-Apartment-in-Colorado/cmr9-ue2w)
+last downloaded `r format(Sys.Date(), "%Y-%m-%d")`

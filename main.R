@@ -19,3 +19,4 @@ source("code/plots/rentChange.R")
 # ---- knit ----
 # Step Four: Render Report
 rmarkdown::render('rmd/analysis.Rmd', 'github_document', '../analysis/README.md')
+rmarkdown::render('rmd/dataREADME.Rmd', 'github_document', '../data/README.md')
