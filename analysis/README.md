@@ -22,4 +22,8 @@ Efficiency apartments in Fort Collins/Loveland saw the largest increase in rent 
 
 The most expensive apartment to rent is a 1 bed in Boulder/Broomfield which goes for $2008.62 per month.
 
+![](../images/maxRentboulderbroomfield.png)
+
 On the opposite end of the sepectrum, you can rent a very affordable efficiency in Grand Junction for $258.78 per month!
+
+![](../images/minRentgrandjunction.png)
