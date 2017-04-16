@@ -18,7 +18,7 @@ if(!file.exists("data/coloradoRent.csv")){
     write_csv(coloradoRent, "data/coloradoRent.csv")
   }
 } else {
-  read_csv("data/coloradoRent.csv")  
+  coloradoRent <- read_csv("data/coloradoRent.csv")  
   coloradoRent %<>% 
     na.omit()
 }

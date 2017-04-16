@@ -13,7 +13,7 @@ Is the rent is too damn high in Colorado? Let's analyze data from the [data.colo
 and find some afforable places to rent around Colorado.
 
 ## Rent Changes Over Time
-How have rents increased between `r min(coloradoRent$year)` and 
+### How have rents increased between `r min(coloradoRent$year)` and 
 `r max(coloradoRent$year)`?
 
 `r rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)]`
@@ -27,7 +27,7 @@ the largest increase in rent between `r min(coloradoRent$year)` and
 
 ![](`r paste("../images/rentIncrease/", gsub('[^0-9a-z]', '', tolower(rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)])),".png", sep ="")`)
 
-How have rents decreased between `r min(coloradoRent$year)` and 
+### How have rents decreased between `r min(coloradoRent$year)` and 
 `r min(coloradoRent$year)`?
 
 `r rentDecrease$apartmenttype[rentDecrease$delta == min(rentDecrease$delta)]`

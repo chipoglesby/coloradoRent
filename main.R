@@ -14,7 +14,8 @@ source("code/load.R")
 # ---- plots ----
 # Step Three: Analyzing data for report:
 source("code/plots/plots.R")
-source("code/plots/rentChange.R")
+source("code/plots/rentIncrease.R")
+source("code/plots/rentDecrease.R")
 
 # ---- knit ----
 # Step Four: Render Report
