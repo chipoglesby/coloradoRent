@@ -6,3 +6,17 @@ output:
   pdf_document:
     toc: false
 ---
+
+Something like:
+Between the `r min(coloradoRent$year[coloradoRent$subregion== i])` and the 
+`r max(coloradoRent$year[coloradoRent$subregion== i])` `r if (sum(max(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == max(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]) - min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]))/min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])])*100 > 0) {paste("rent increased by ", round(sum(max(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == max(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]) - min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]))/min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])])*100,2), "%", sep = "")} else {paste("rent decreased by ", round(sum(max(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == max(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]) - min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])]))/min(coloradoRent$averagerent[tolower(coloradoRent$apartmenttype) == 'all' & coloradoRent$subregion == i & coloradoRent$year == min(coloradoRent$year[coloradoRent$subregion == i & tolower(coloradoRent$apartmenttype) == 'all'])])*100,2), "%", sep = "")}` in the `r i` area.
+
+![](`r paste("../images/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+  
+
+** Questions:
+
+1. How much did rent increase over all during this time period?
+2. Which apartment type had the higest rent increase?
+3. Which apartment type had the lowest rent increase?
+4. Did rent decrease? If so, by how much?
