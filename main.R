@@ -9,13 +9,16 @@ source("code/load.R")
 
 # ---- analysis ----
 # Step Two: Analyzing data for report:
- source("code/analysis.R")
+source("code/analysis.R")
 
 # ---- plots ----
 # Step Three: Analyzing data for report:
 source("code/plots/plots.R")
 source("code/plots/rentIncrease.R")
 source("code/plots/rentDecrease.R")
+
+# ---- reports -----
+source("code/reports.R")
 
 # ---- knit ----
 # Step Four: Render Report

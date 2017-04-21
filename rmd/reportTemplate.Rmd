@@ -1,0 +1,8 @@
+---
+title: '`r paste("Rent Prices in", i, min(coloradoRent$year), "-", max(coloradoRent$year), sep = " ")`'
+output:
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
+---
