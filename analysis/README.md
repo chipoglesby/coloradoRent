@@ -27,3 +27,36 @@ The most expensive apartment to rent is a 1 bed in Boulder/Broomfield which goes
 On the opposite end of the sepectrum, you can rent a very affordable efficiency in Grand Junction for $258.78 per month!
 
 ![](../images/minRentgrandjunction.png)
+
+Full List of Reports:
+---------------------
+
+Reports
+-------
+
+[../analysis/adams.md](../analysis/adams.md)
+[../analysis/alamosa.md](../analysis/alamosa.md)
+[../analysis/arapahoe.md](../analysis/arapahoe.md)
+[../analysis/aspen.md](../analysis/aspen.md)
+[../analysis/boulderbroomfield.md](../analysis/boulderbroomfield.md)
+[../analysis/buenavista.md](../analysis/buenavista.md)
+[../analysis/canoncity.md](../analysis/canoncity.md)
+[../analysis/centralmountains.md](../analysis/centralmountains.md)
+[../analysis/coloradosprings.md](../analysis/coloradosprings.md)
+[../analysis/denver.md](../analysis/denver.md)
+[../analysis/durango.md](../analysis/durango.md)
+[../analysis/eaglecounty.md](../analysis/eaglecounty.md)
+[../analysis/fortcollinsloveland.md](../analysis/fortcollinsloveland.md)
+[../analysis/fortmorganbrush.md](../analysis/fortmorganbrush.md)
+[../analysis/glenwoodsprings.md](../analysis/glenwoodsprings.md)
+[../analysis/grandjunction.md](../analysis/grandjunction.md)
+[../analysis/greeley.md](../analysis/greeley.md)
+[../analysis/gunnison.md](../analysis/gunnison.md)
+[../analysis/lakecounty.md](../analysis/lakecounty.md)
+[../analysis/montrose.md](../analysis/montrose.md)
+[../analysis/pueblo.md](../analysis/pueblo.md)
+[../analysis/README.md](../analysis/README.md)
+[../analysis/salida.md](../analysis/salida.md)
+[../analysis/southeasterncolorado.md](../analysis/southeasterncolorado.md) [../analysis/steamboatsprings.md](../analysis/steamboatsprings.md)
+[../analysis/sterling.md](../analysis/sterling.md)
+[../analysis/summitcounty.md](../analysis/summitcounty.md)
