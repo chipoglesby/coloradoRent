@@ -48,13 +48,3 @@ The most expensive apartment to rent is a `r  tolower(coloradoRent$apartmenttype
 On the opposite end of the sepectrum, you can rent a very affordable `r tolower(coloradoRent$apartmenttype[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)])])` in `r coloradoRent$subregion[coloradoRent$year == max(coloradoRent$year) & coloradoRent$averagerent == min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)])]` for `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$year == max(coloradoRent$year)]),2), sep = "")` per month!
 
 ![](`r paste("../images/minRent", gsub('[^0-9a-z]', '', tolower(minRent$subregion[1])), ".png", sep = "")`)
-
-
-## Full List of Reports:
-
-```{r echo = FALSE}
-files <- as.data.frame(paste("[",list.files(path="../analysis", pattern="*.md", full.names=T, recursive=FALSE), "](", list.files(path="../analysis", pattern="*.md", full.names=T, recursive=FALSE),")", "", sep = ""))
-colnames(files) = c("Reports")
-
-knitr::kable(files)
-```
