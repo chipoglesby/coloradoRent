@@ -33,7 +33,7 @@ apartments in
 `r smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)]` saw
 the largest decrease in rent between `r min(coloradoRent$year)` and 
 `r min(coloradoRent$year)`. During this 
-`r sum(min(coloradoRent$year) - min(coloradoRent$year))` year period, rent fell
+`r sum(max(coloradoRent$year) - min(coloradoRent$year))` year period, rent fell
 `r min(smallRentDelta$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == smallRentDelta$apartmenttype[smallRentDelta$delta == min(smallRentDelta$delta)]  & coloradoRent$subregion == smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)] & coloradoRent$year == min(coloradoRent$year)]),2), sep = "")` to `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == smallRentDelta$apartmenttype[smallRentDelta$delta == min(smallRentDelta$delta)] & coloradoRent$subregion == smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)]]),2), sep = "")`.
 
 
