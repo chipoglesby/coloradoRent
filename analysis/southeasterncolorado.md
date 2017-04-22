@@ -5,7 +5,8 @@ Between the 2004 and the 2015 rent decreased by -14.15% in the Southeastern Colo
 
 ![](../images/southeasterncolorado.png)
 
-\*\*Further Questions To Ask:
+Further Questions To Ask:
+-------------------------
 
 1.  How much did rent change over all during this time period?
 2.  Which apartment type had the higest rent increase?

@@ -5,7 +5,8 @@ Between the 1996 and the 2015 rent increased by 52.12% in the Summit County area
 
 ![](../images/summitcounty.png)
 
-\*\*Further Questions To Ask:
+Further Questions To Ask:
+-------------------------
 
 1.  How much did rent change over all during this time period?
 2.  Which apartment type had the higest rent increase?

@@ -5,7 +5,8 @@ Between the 2000 and the 2011 rent decreased by -1.68% in the Salida area.
 
 ![](../images/salida.png)
 
-\*\*Further Questions To Ask:
+Further Questions To Ask:
+-------------------------
 
 1.  How much did rent change over all during this time period?
 2.  Which apartment type had the higest rent increase?
