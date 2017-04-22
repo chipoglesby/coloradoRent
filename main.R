@@ -18,7 +18,7 @@ source("code/plots/largeRentDelta.R")
 source("code/plots/smallRentDelta.R")
 
 # ---- reports -----
-source("code/subregionReports.R")
+source("code/subregionAnalysis.R")
 
 # ---- knit ----
 # Step Four: Render Report
