@@ -5,7 +5,7 @@ Between the 1996 and the 2015 rent increased by 38.1% in the Glenwood Springs ar
 
 ![](../images/glenwoodsprings.png)
 
-\*\* Further Questions To Ask:
+\*\*Further Questions To Ask:
 
 1.  How much did rent change over all during this time period?
 2.  Which apartment type had the higest rent increase?

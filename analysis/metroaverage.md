@@ -5,7 +5,7 @@ Between the 1998 and the 2015 rent increased by 107.74% in the Metro Average are
 
 ![](../images/metroaverage.png)
 
-\*\* Further Questions To Ask:
+\*\*Further Questions To Ask:
 
 1.  How much did rent change over all during this time period?
 2.  Which apartment type had the higest rent increase?

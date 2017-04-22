@@ -1,6 +1,6 @@
 # Rent Prices in Colorado 1996 - 2015
 
-Part of a portfolio piece to exhibit current skillset in `R`.
+Part of a piece to exhibit current skillset in `R`.
 
 This piece includes:
 
