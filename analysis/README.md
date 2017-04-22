@@ -10,13 +10,13 @@ Rent Changes Over Time
 
 Efficiency apartments in Fort Collins/Loveland saw the largest increase in rent between 1996 and 2015. During this 19 year period, rent rose 226.5% from $239.26 to $781.18.
 
-![](../images/rentIncrease/fortcollinsloveland.png)
+![](../images/largeRentDelta/fortcollinsloveland.png)
 
 ### How have rents decreased between 1996 and 1996?
 
 3 Bed apartments in Aspen saw the largest decrease in rent between 1996 and 1996. During this 0 year period, rent fell -40.31% from $1600 to $751.89.
 
-![](../images/rentDecrease/aspen.png)
+![](../images/smallRentDelta/aspen.png)
 
 ### As of 2015, what are rent prices?
 

@@ -1,0 +1,23 @@
+---
+title: '`r paste("Rent Prices in", i, min(coloradoRentAll$year), "-", max(coloradoRentAll$year), sep = " ")`'
+output:
+  github_document:
+    html_preview: FALSE
+  pdf_document:
+    toc: false
+---
+
+Between the `r min(coloradoRentAll$year[coloradoRentAll$subregion== i])` and the 
+`r max(coloradoRentAll$year[coloradoRentAll$subregion== i])` `r if (sum(max(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == max(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]) - min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]))/min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])])*100 > 0) {paste("rent increased by ", round(sum(max(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == max(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]) - min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]))/min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])])*100,2), "%", sep = "")} else {paste("rent decreased by ", round(sum(max(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == max(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]) - min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])]))/min(coloradoRentAll$averagerent[tolower(coloradoRentAll$apartmenttype) == 'all' & coloradoRentAll$subregion == i & coloradoRentAll$year == min(coloradoRentAll$year[coloradoRentAll$subregion == i & tolower(coloradoRentAll$apartmenttype) == 'all'])])*100,2), "%", sep = "")}` in the `r i` area.
+
+![](`r paste("../images/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+
+## Smallest Rent Delta
+`r knitr::kable(smallRentDelta %>% filter(subregion == i))`
+
+![](`r paste("../images/smallRentDelta/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+
+## Largest Rent Delta
+`r knitr::kable(largeRentDelta %>% filter(subregion == i))`
+
+![](`r paste("../images/largeRentDelta/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)

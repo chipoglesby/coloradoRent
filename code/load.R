@@ -25,4 +25,10 @@ if(!file.exists("data/coloradoRent.csv")){
   coloradoRent <- read_csv("data/coloradoRent.csv")  
   coloradoRent %<>% 
     na.omit()
+  coloradoRent$averagerent <- as.numeric(coloradoRent$averagerent)
+  coloradoRent$year <- as.integer(coloradoRent$year)
+  coloradoRent$quarter <- as.integer(coloradoRent$quarter)
 }
+
+coloradoRentAll <- coloradoRent %>% 
+  filter(tolower(apartmenttype) == 'all')

@@ -1,4 +1,4 @@
-rentIncrease <- coloradoRent %>% 
+largeRentDelta <- coloradoRent %>% 
   group_by(subregion, apartmenttype) %>%
   na.omit() %>% 
   summarize(delta = 
@@ -7,7 +7,7 @@ rentIncrease <- coloradoRent %>%
                       min(averagerent[year == min(year)]) * 100, 2)) %>% 
   filter(delta == max(delta))
 
-rentDecrease <- coloradoRent %>% 
+smallRentDelta <- coloradoRent %>% 
   group_by(subregion, apartmenttype) %>%
   na.omit() %>% 
   summarize(delta = 
