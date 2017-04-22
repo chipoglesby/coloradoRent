@@ -50,5 +50,8 @@ On the opposite end of the sepectrum, you can rent a very affordable `r tolower(
 ![](`r paste("../images/minRent", gsub('[^0-9a-z]', '', tolower(minRent$subregion[1])), ".png", sep = "")`)
 
 ## Full Analysis
+
+```{r echo = FALSE}
 knitr::kable(coloradoRentAll %>% 
-  distinct(subregion, paste("../analysis/", tolower(gsub("[^0-9a-zA-Z]", "", subregion)), ".md", sep = "")))
+  distinct(subregion, file = paste("[",subregion,"]", "(../analysis/", tolower(gsub("[^0-9a-zA-Z]", "", subregion)), ".md)",sep = "")))
+```
