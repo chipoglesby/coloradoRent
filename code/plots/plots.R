@@ -3,6 +3,7 @@ library(ggplot2)
 
 if(dir.exists("images") == FALSE) {
   dir.create("images")
+}
   for (i in unique(coloradoRent$subregion)) {
     ggsave(
       coloradoRent %>%
@@ -11,9 +12,7 @@ if(dir.exists("images") == FALSE) {
         summarise(medianRent = median(averagerent)) %>% 
         ggplot(aes(year, medianRent)) +
         geom_line(aes(color = apartmenttype), size = 1.5) +
-        scale_x_continuous(
-          breaks = seq(min(coloradoRent$year), max(coloradoRent$year), 1)) +
-        ggtitle(paste(i," Rent ", min(coloradoRent$year)," - ", max(coloradoRent$year) , sep = "")) +
+        ggtitle(paste(i,"Rent", sep = " ")) +
         xlab("Year") +
         ylab("Median Rent Price") + 
         theme(plot.title = 
@@ -34,4 +33,3 @@ if(dir.exists("images") == FALSE) {
         paste(gsub('[^0-9a-z]', '', tolower(i)), ".png", sep = ""), 
       path = "images", width = 17, height = 8.8, dpi = 72)
   }
-}
