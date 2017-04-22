@@ -13,7 +13,7 @@ If you're on a Mac or Linux box you can download and reproduce this report by ru
 You may also need an API token. [You can sign up for one here](https://dev.socrata.com/foundry/data.colorado.gov/yifv-9mje).
 
 ## Full Analysis
-The full report can be found at [`analysis/README.md`](analysis/README.md)
+The full report can be found at [analysis/README.md](analysis/README.md)
 
 ## Notes
 This information should not be viewed as a full or completely accurate representation of current rental prices across Colorado. The full methodology can be found at [colorado.gov](https://www.colorado.gov/pacific/dola/vacancy-rent-surveys)
