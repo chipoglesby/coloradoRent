@@ -29,3 +29,6 @@ if(!file.exists("data/coloradoRent.csv")){
   coloradoRent$year <- as.integer(coloradoRent$year)
   coloradoRent$quarter <- as.integer(coloradoRent$quarter)
 }
+
+coloradoRentAll <- coloradoRent %>% 
+  filter(tolower(apartmenttype) == 'all')

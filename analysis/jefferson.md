@@ -1,9 +1,9 @@
-Rent Prices in Denver 1996 - 2015
+Rent Prices in Jefferson 1996 - 2015
 ================
 
-Something like: Between the 1999 and the 2015 rent increased by 36% in the Denver area.
+Something like: Between the 1998 and the 2015 rent increased by 94.22% in the Jefferson area.
 
-![](../images/denver.png)
+![](../images/jefferson.png)
 
 \*\* Questions:
 
