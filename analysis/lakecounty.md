@@ -5,9 +5,12 @@ Between the 1996 and the 2012 rent increased by 53.42% in the Lake County area.
 
 ![](../images/lakecounty.png)
 
-Further Questions To Ask:
--------------------------
+Smallest Rent Delta
+-------------------
 
-1.  Which apartment type had the higest rent increase?
-2.  Which apartment type had the lowest rent increase?
-3.  Did rent decrease? If so, by how much?
+![](../images/rentDecrease/lakecounty.png)
+
+Largest Rent Delta
+------------------
+
+![](../images/rentIncrease/lakecounty.png)

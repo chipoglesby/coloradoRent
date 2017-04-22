@@ -18,7 +18,7 @@ source("code/plots/rentIncrease.R")
 source("code/plots/rentDecrease.R")
 
 # ---- reports -----
-source("code/reports.R")
+source("code/subregionReports.R")
 
 # ---- knit ----
 # Step Four: Render Report

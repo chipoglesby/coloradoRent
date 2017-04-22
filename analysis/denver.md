@@ -5,9 +5,12 @@ Between the 1999 and the 2015 rent increased by 36% in the Denver area.
 
 ![](../images/denver.png)
 
-Further Questions To Ask:
--------------------------
+Smallest Rent Delta
+-------------------
 
-1.  Which apartment type had the higest rent increase?
-2.  Which apartment type had the lowest rent increase?
-3.  Did rent decrease? If so, by how much?
+![](../images/rentDecrease/denver.png)
+
+Largest Rent Delta
+------------------
+
+![](../images/rentIncrease/denver.png)

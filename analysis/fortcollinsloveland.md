@@ -5,9 +5,12 @@ Between the 1996 and the 2015 rent increased by 133.34% in the Fort Collins/Love
 
 ![](../images/fortcollinsloveland.png)
 
-Further Questions To Ask:
--------------------------
+Smallest Rent Delta
+-------------------
 
-1.  Which apartment type had the higest rent increase?
-2.  Which apartment type had the lowest rent increase?
-3.  Did rent decrease? If so, by how much?
+![](../images/rentDecrease/fortcollinsloveland.png)
+
+Largest Rent Delta
+------------------
+
+![](../images/rentIncrease/fortcollinsloveland.png)

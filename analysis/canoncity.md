@@ -5,9 +5,12 @@ Between the 2000 and the 2012 rent increased by 33.83% in the Canon City area.
 
 ![](../images/canoncity.png)
 
-Further Questions To Ask:
--------------------------
+Smallest Rent Delta
+-------------------
 
-1.  Which apartment type had the higest rent increase?
-2.  Which apartment type had the lowest rent increase?
-3.  Did rent decrease? If so, by how much?
+![](../images/rentDecrease/canoncity.png)
+
+Largest Rent Delta
+------------------
+
+![](../images/rentIncrease/canoncity.png)

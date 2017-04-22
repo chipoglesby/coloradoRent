@@ -5,9 +5,12 @@ Between the 1996 and the 2015 rent increased by 102.46% in the Durango area.
 
 ![](../images/durango.png)
 
-Further Questions To Ask:
--------------------------
+Smallest Rent Delta
+-------------------
 
-1.  Which apartment type had the higest rent increase?
-2.  Which apartment type had the lowest rent increase?
-3.  Did rent decrease? If so, by how much?
+![](../images/rentDecrease/durango.png)
+
+Largest Rent Delta
+------------------
+
+![](../images/rentIncrease/durango.png)
