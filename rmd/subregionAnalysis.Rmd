@@ -21,3 +21,10 @@ Between the `r min(coloradoRentAll$year[coloradoRentAll$subregion== i])` and the
 `r knitr::kable(largeRentDelta %>% filter(subregion == i))`
 
 ![](`r paste("../images/largeRentDelta/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+
+## Full Analysis
+
+```{r echo = FALSE}
+knitr::kable(coloradoRentAll %>% 
+  distinct(subregion, paste("../analysis/", tolower(gsub("[^0-9a-zA-Z]", "", subregion)), ".md", sep = "")))
+```
