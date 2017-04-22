@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Alamosa   | 2 Bed, 2 Bath |   6.48|
 
-![](../images/rentDecrease/alamosa.png)
+![](../images/smallRentDelta/alamosa.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Alamosa   | 1 Bed         |  81.26|
 
-![](../images/rentIncrease/alamosa.png)
+![](../images/largeRentDelta/alamosa.png)

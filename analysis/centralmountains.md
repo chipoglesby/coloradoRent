@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:------------------|:--------------|------:|
 | Central Mountains | Efficiency    |  -3.28|
 
-![](../images/rentDecrease/centralmountains.png)
+![](../images/smallRentDelta/centralmountains.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:------------------|:--------------|------:|
 | Central Mountains | 2 Bed, 1 Bath |  13.96|
 
-![](../images/rentIncrease/centralmountains.png)
+![](../images/largeRentDelta/centralmountains.png)

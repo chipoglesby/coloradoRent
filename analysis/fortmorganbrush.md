@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:------------------|:--------------|-------:|
 | Fort Morgan/Brush | 2 Bed, 2 Bath |  -16.31|
 
-![](../images/rentDecrease/fortmorganbrush.png)
+![](../images/smallRentDelta/fortmorganbrush.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:------------------|:--------------|------:|
 | Fort Morgan/Brush | Efficiency    |    150|
 
-![](../images/rentIncrease/fortmorganbrush.png)
+![](../images/largeRentDelta/fortmorganbrush.png)

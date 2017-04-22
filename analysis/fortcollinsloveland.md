@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------------------|:--------------|------:|
 | Fort Collins/Loveland | 2 Bed, 1 Bath |  93.48|
 
-![](../images/rentDecrease/fortcollinsloveland.png)
+![](../images/smallRentDelta/fortcollinsloveland.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------------------|:--------------|------:|
 | Fort Collins/Loveland | Efficiency    |  226.5|
 
-![](../images/rentIncrease/fortcollinsloveland.png)
+![](../images/largeRentDelta/fortcollinsloveland.png)

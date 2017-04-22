@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:-----------------|:--------------|------:|
 | Colorado Springs | 2 Bed, 2 Bath |  71.08|
 
-![](../images/rentDecrease/coloradosprings.png)
+![](../images/smallRentDelta/coloradosprings.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:-----------------|:--------------|-------:|
 | Colorado Springs | 3 Bed         |  120.38|
 
-![](../images/rentIncrease/coloradosprings.png)
+![](../images/largeRentDelta/coloradosprings.png)

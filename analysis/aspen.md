@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|-------:|
 | Aspen     | 3 Bed         |  -40.31|
 
-![](../images/rentDecrease/aspen.png)
+![](../images/smallRentDelta/aspen.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Aspen     | 2 Bed, 2 Bath |  51.51|
 
-![](../images/rentIncrease/aspen.png)
+![](../images/largeRentDelta/aspen.png)

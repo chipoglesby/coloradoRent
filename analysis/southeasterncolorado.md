@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------------------|:--------------|-------:|
 | Southeastern Colorado | 2 Bed, 1 Bath |  -39.92|
 
-![](../images/rentDecrease/southeasterncolorado.png)
+![](../images/smallRentDelta/southeasterncolorado.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------------------|:--------------|------:|
 | Southeastern Colorado | 1 Bed         |  24.24|
 
-![](../images/rentIncrease/southeasterncolorado.png)
+![](../images/largeRentDelta/southeasterncolorado.png)

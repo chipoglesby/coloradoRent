@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Gunnison  | 3 Bed         |  -5.15|
 
-![](../images/rentDecrease/gunnison.png)
+![](../images/smallRentDelta/gunnison.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Gunnison  | 2 Bed, 1 Bath |  39.25|
 
-![](../images/rentIncrease/gunnison.png)
+![](../images/largeRentDelta/gunnison.png)

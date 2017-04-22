@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:-------------------|:--------------|------:|
 | Boulder/Broomfield | Efficiency    |  79.94|
 
-![](../images/rentDecrease/boulderbroomfield.png)
+![](../images/smallRentDelta/boulderbroomfield.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:-------------------|:--------------|-------:|
 | Boulder/Broomfield | 3 Bed         |  185.78|
 
-![](../images/rentIncrease/boulderbroomfield.png)
+![](../images/largeRentDelta/boulderbroomfield.png)

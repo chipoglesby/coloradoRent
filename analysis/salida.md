@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|-------:|
 | Salida    | 3 Bed         |  -19.84|
 
-![](../images/rentDecrease/salida.png)
+![](../images/smallRentDelta/salida.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Salida    | 1 Bed         |   3.93|
 
-![](../images/rentIncrease/salida.png)
+![](../images/largeRentDelta/salida.png)

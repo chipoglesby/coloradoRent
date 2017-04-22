@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Sterling  | Efficiency    |      0|
 
-![](../images/rentDecrease/sterling.png)
+![](../images/smallRentDelta/sterling.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Sterling  | 1 Bed         |  114.56|
 
-![](../images/rentIncrease/sterling.png)
+![](../images/largeRentDelta/sterling.png)

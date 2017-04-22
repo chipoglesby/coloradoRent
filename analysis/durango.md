@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Durango   | 2 Bed, 2 Bath |  37.38|
 
-![](../images/rentDecrease/durango.png)
+![](../images/smallRentDelta/durango.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Durango   | Efficiency    |  128.99|
 
-![](../images/rentIncrease/durango.png)
+![](../images/largeRentDelta/durango.png)

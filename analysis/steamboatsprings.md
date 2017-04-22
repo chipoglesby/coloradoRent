@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:------------------|:--------------|------:|
 | Steamboat Springs | Efficiency    |      0|
 
-![](../images/rentDecrease/steamboatsprings.png)
+![](../images/smallRentDelta/steamboatsprings.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:------------------|:--------------|------:|
 | Steamboat Springs | 2 Bed, 2 Bath |  46.75|
 
-![](../images/rentIncrease/steamboatsprings.png)
+![](../images/largeRentDelta/steamboatsprings.png)

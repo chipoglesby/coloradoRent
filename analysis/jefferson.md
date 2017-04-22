@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Jefferson | 2 Bed, 1 Bath |  86.65|
 
-![](../images/rentDecrease/jefferson.png)
+![](../images/smallRentDelta/jefferson.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Jefferson | Efficiency    |  129.9|
 
-![](../images/rentIncrease/jefferson.png)
+![](../images/largeRentDelta/jefferson.png)

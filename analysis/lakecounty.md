@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:------------|:--------------|------:|
 | Lake County | 2 Bed, 2 Bath |  20.36|
 
-![](../images/rentDecrease/lakecounty.png)
+![](../images/smallRentDelta/lakecounty.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:------------|:--------------|-------:|
 | Lake County | Efficiency    |  100.99|
 
-![](../images/rentIncrease/lakecounty.png)
+![](../images/largeRentDelta/lakecounty.png)

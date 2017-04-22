@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:-----------------|:--------------|------:|
 | Glenwood Springs | 2 Bed, 1 Bath |  11.24|
 
-![](../images/rentDecrease/glenwoodsprings.png)
+![](../images/smallRentDelta/glenwoodsprings.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:-----------------|:--------------|------:|
 | Glenwood Springs | Efficiency    |  64.63|
 
-![](../images/rentIncrease/glenwoodsprings.png)
+![](../images/largeRentDelta/glenwoodsprings.png)

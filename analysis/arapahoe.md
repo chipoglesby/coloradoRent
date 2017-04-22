@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Arapahoe  | 1 Bed         |  85.55|
 
-![](../images/rentDecrease/arapahoe.png)
+![](../images/smallRentDelta/arapahoe.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Arapahoe  | 2 Bed, 2 Bath |  154.88|
 
-![](../images/rentIncrease/arapahoe.png)
+![](../images/largeRentDelta/arapahoe.png)

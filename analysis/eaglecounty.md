@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:-------------|:--------------|------:|
 | Eagle County | 2 Bed, 2 Bath |  46.79|
 
-![](../images/rentDecrease/eaglecounty.png)
+![](../images/smallRentDelta/eaglecounty.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:-------------|:--------------|------:|
 | Eagle County | Efficiency    |  78.99|
 
-![](../images/rentIncrease/eaglecounty.png)
+![](../images/largeRentDelta/eaglecounty.png)

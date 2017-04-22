@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:-----------|:--------------|------:|
 | Canon City | 3 Bed         |  -3.71|
 
-![](../images/rentDecrease/canoncity.png)
+![](../images/smallRentDelta/canoncity.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:-----------|:--------------|------:|
 | Canon City | 2 Bed, 1 Bath |  36.36|
 
-![](../images/rentIncrease/canoncity.png)
+![](../images/largeRentDelta/canoncity.png)

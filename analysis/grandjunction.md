@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:---------------|:--------------|------:|
 | Grand Junction | 2 Bed, 2 Bath |  21.43|
 
-![](../images/rentDecrease/grandjunction.png)
+![](../images/smallRentDelta/grandjunction.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:---------------|:--------------|------:|
 | Grand Junction | 3 Bed         |  81.53|
 
-![](../images/rentIncrease/grandjunction.png)
+![](../images/largeRentDelta/grandjunction.png)

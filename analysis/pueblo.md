@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Pueblo    | Efficiency    |  46.67|
 
-![](../images/rentDecrease/pueblo.png)
+![](../images/smallRentDelta/pueblo.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Pueblo    | 2 Bed, 2 Bath |  107.55|
 
-![](../images/rentIncrease/pueblo.png)
+![](../images/largeRentDelta/pueblo.png)

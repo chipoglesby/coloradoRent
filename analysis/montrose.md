@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Montrose  | 2 Bed, 2 Bath |  -19.1|
 
-![](../images/rentDecrease/montrose.png)
+![](../images/smallRentDelta/montrose.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Montrose  | 1 Bed         |  61.37|
 
-![](../images/rentIncrease/montrose.png)
+![](../images/largeRentDelta/montrose.png)

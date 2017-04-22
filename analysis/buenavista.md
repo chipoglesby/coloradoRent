@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:------------|:--------------|-------:|
 | Buena Vista | 1 Bed         |  -21.55|
 
-![](../images/rentDecrease/buenavista.png)
+![](../images/smallRentDelta/buenavista.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:------------|:--------------|------:|
 | Buena Vista | 2 Bed, 2 Bath |  16.56|
 
-![](../images/rentIncrease/buenavista.png)
+![](../images/largeRentDelta/buenavista.png)

@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Greeley   | Efficiency    |  67.82|
 
-![](../images/rentDecrease/greeley.png)
+![](../images/smallRentDelta/greeley.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|------:|
 | Greeley   | 3 Bed         |  98.29|
 
-![](../images/rentIncrease/greeley.png)
+![](../images/largeRentDelta/greeley.png)

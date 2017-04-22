@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:--------------|:--------------|------:|
 | Metro Average | 2 Bed, 2 Bath |  88.17|
 
-![](../images/rentDecrease/metroaverage.png)
+![](../images/smallRentDelta/metroaverage.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:--------------|:--------------|-------:|
 | Metro Average | 1 Bed         |  148.02|
 
-![](../images/rentIncrease/metroaverage.png)
+![](../images/largeRentDelta/metroaverage.png)

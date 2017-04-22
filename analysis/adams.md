@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Adams     | 1 Bed         |  56.13|
 
-![](../images/rentDecrease/adams.png)
+![](../images/smallRentDelta/adams.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Adams     | 2 Bed, 1 Bath |  149.63|
 
-![](../images/rentIncrease/adams.png)
+![](../images/largeRentDelta/adams.png)

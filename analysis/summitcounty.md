@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:--------------|:--------------|------:|
 | Summit County | Efficiency    |  17.67|
 
-![](../images/rentDecrease/summitcounty.png)
+![](../images/smallRentDelta/summitcounty.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:--------------|:--------------|------:|
 | Summit County | 1 Bed         |  69.18|
 
-![](../images/rentIncrease/summitcounty.png)
+![](../images/largeRentDelta/summitcounty.png)

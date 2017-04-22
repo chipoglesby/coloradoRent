@@ -12,7 +12,7 @@ Smallest Rent Delta
 |:----------|:--------------|------:|
 | Denver    | All           |     36|
 
-![](../images/rentDecrease/denver.png)
+![](../images/smallRentDelta/denver.png)
 
 Largest Rent Delta
 ------------------
@@ -21,4 +21,4 @@ Largest Rent Delta
 |:----------|:--------------|-------:|
 | Denver    | 2 Bed, 1 Bath |  144.56|
 
-![](../images/rentIncrease/denver.png)
+![](../images/largeRentDelta/denver.png)
