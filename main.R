@@ -14,8 +14,8 @@ source("code/analysis.R")
 # ---- plots ----
 # Step Three: Analyzing data for report:
 source("code/plots/plots.R")
-source("code/plots/rentIncrease.R")
-source("code/plots/rentDecrease.R")
+source("code/plots/largeRentDelta.R")
+source("code/plots/smallRentDelta.R")
 
 # ---- reports -----
 source("code/subregionReports.R")

@@ -8,9 +8,17 @@ Between the 1999 and the 2015 rent increased by 36% in the Denver area.
 Smallest Rent Delta
 -------------------
 
+| subregion | apartmenttype |  delta|
+|:----------|:--------------|------:|
+| Denver    | All           |     36|
+
 ![](../images/rentDecrease/denver.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion | apartmenttype |   delta|
+|:----------|:--------------|-------:|
+| Denver    | 2 Bed, 1 Bath |  144.56|
 
 ![](../images/rentIncrease/denver.png)

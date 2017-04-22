@@ -8,9 +8,17 @@ Between the 2000 and the 2011 rent decreased by -1.68% in the Salida area.
 Smallest Rent Delta
 -------------------
 
+| subregion | apartmenttype |   delta|
+|:----------|:--------------|-------:|
+| Salida    | 3 Bed         |  -19.84|
+
 ![](../images/rentDecrease/salida.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion | apartmenttype |  delta|
+|:----------|:--------------|------:|
+| Salida    | 1 Bed         |   3.93|
 
 ![](../images/rentIncrease/salida.png)

@@ -8,9 +8,17 @@ Between the 1996 and the 2015 rent increased by 87.51% in the Colorado Springs a
 Smallest Rent Delta
 -------------------
 
+| subregion        | apartmenttype |  delta|
+|:-----------------|:--------------|------:|
+| Colorado Springs | 2 Bed, 2 Bath |  71.08|
+
 ![](../images/rentDecrease/coloradosprings.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion        | apartmenttype |   delta|
+|:-----------------|:--------------|-------:|
+| Colorado Springs | 3 Bed         |  120.38|
 
 ![](../images/rentIncrease/coloradosprings.png)

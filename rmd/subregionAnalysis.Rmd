@@ -13,7 +13,11 @@ Between the `r min(coloradoRentAll$year[coloradoRentAll$subregion== i])` and the
 ![](`r paste("../images/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
 
 ## Smallest Rent Delta
-![](`r paste("../images/rentDecrease/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+`r knitr::kable(smallRentDelta %>% filter(subregion == i))`
+
+![](`r paste("../images/smallRentDelta/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
 
 ## Largest Rent Delta
-![](`r paste("../images/rentIncrease/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)
+`r knitr::kable(largeRentDelta %>% filter(subregion == i))`
+
+![](`r paste("../images/largeRentDelta/", tolower(gsub("[^0-9a-zA-Z]", "", i)), ".png", sep = "")`)

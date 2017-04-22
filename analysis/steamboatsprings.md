@@ -8,9 +8,17 @@ Between the 2000 and the 2015 rent increased by 42.87% in the Steamboat Springs 
 Smallest Rent Delta
 -------------------
 
+| subregion         | apartmenttype |  delta|
+|:------------------|:--------------|------:|
+| Steamboat Springs | Efficiency    |      0|
+
 ![](../images/rentDecrease/steamboatsprings.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion         | apartmenttype |  delta|
+|:------------------|:--------------|------:|
+| Steamboat Springs | 2 Bed, 2 Bath |  46.75|
 
 ![](../images/rentIncrease/steamboatsprings.png)

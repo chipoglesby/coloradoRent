@@ -15,29 +15,29 @@ and find some afforable places to rent around Colorado.
 ## Rent Changes Over Time
 ### How have rents increased between `r min(coloradoRent$year)` and `r max(coloradoRent$year)`?
 
-`r rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)]`
+`r largeRentDelta$apartmenttype[largeRentDelta$delta == max(largeRentDelta$delta)]`
 apartments in
-`r rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)]` saw
+`r largeRentDelta$subregion[largeRentDelta$delta == max(largeRentDelta$delta)]` saw
 the largest increase in rent between `r min(coloradoRent$year)` and 
 `r max(coloradoRent$year)`. During this 
 `r sum(max(coloradoRent$year) - min(coloradoRent$year))` year period, rent rose
-`r max(rentIncrease$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)] & coloradoRent$subregion == rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)]]),2), sep = "")` to `r paste("$", round(max(coloradoRent$averagerent[coloradoRent$apartmenttype == rentIncrease$apartmenttype[rentIncrease$delta == max(rentIncrease$delta)]  & coloradoRent$subregion == rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)] & coloradoRent$year == max(coloradoRent$year)]),2), sep = "")`.
+`r max(largeRentDelta$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == largeRentDelta$apartmenttype[largeRentDelta$delta == max(largeRentDelta$delta)] & coloradoRent$subregion == largeRentDelta$subregion[largeRentDelta$delta == max(largeRentDelta$delta)]]),2), sep = "")` to `r paste("$", round(max(coloradoRent$averagerent[coloradoRent$apartmenttype == largeRentDelta$apartmenttype[largeRentDelta$delta == max(largeRentDelta$delta)]  & coloradoRent$subregion == largeRentDelta$subregion[largeRentDelta$delta == max(largeRentDelta$delta)] & coloradoRent$year == max(coloradoRent$year)]),2), sep = "")`.
 
 
-![](`r paste("../images/rentIncrease/", gsub('[^0-9a-z]', '', tolower(rentIncrease$subregion[rentIncrease$delta == max(rentIncrease$delta)])),".png", sep ="")`)
+![](`r paste("../images/largeRentDelta/", gsub('[^0-9a-z]', '', tolower(largeRentDelta$subregion[largeRentDelta$delta == max(largeRentDelta$delta)])),".png", sep ="")`)
 
 ### How have rents decreased between `r min(coloradoRent$year)` and `r min(coloradoRent$year)`?
 
-`r rentDecrease$apartmenttype[rentDecrease$delta == min(rentDecrease$delta)]`
+`r smallRentDelta$apartmenttype[smallRentDelta$delta == min(smallRentDelta$delta)]`
 apartments in
-`r rentDecrease$subregion[rentDecrease$delta == min(rentDecrease$delta)]` saw
+`r smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)]` saw
 the largest decrease in rent between `r min(coloradoRent$year)` and 
 `r min(coloradoRent$year)`. During this 
 `r sum(min(coloradoRent$year) - min(coloradoRent$year))` year period, rent fell
-`r min(rentDecrease$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == rentDecrease$apartmenttype[rentDecrease$delta == min(rentDecrease$delta)]  & coloradoRent$subregion == rentDecrease$subregion[rentDecrease$delta == min(rentDecrease$delta)] & coloradoRent$year == min(coloradoRent$year)]),2), sep = "")` to `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == rentDecrease$apartmenttype[rentDecrease$delta == min(rentDecrease$delta)] & coloradoRent$subregion == rentDecrease$subregion[rentDecrease$delta == min(rentDecrease$delta)]]),2), sep = "")`.
+`r min(smallRentDelta$delta)`% from `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == smallRentDelta$apartmenttype[smallRentDelta$delta == min(smallRentDelta$delta)]  & coloradoRent$subregion == smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)] & coloradoRent$year == min(coloradoRent$year)]),2), sep = "")` to `r paste("$", round(min(coloradoRent$averagerent[coloradoRent$apartmenttype == smallRentDelta$apartmenttype[smallRentDelta$delta == min(smallRentDelta$delta)] & coloradoRent$subregion == smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)]]),2), sep = "")`.
 
 
-![](`r paste("../images/rentDecrease/", gsub('[^0-9a-z]', '', tolower(rentDecrease$subregion[rentDecrease$delta == min(rentDecrease$delta)])),".png", sep ="")`)
+![](`r paste("../images/smallRentDelta/", gsub('[^0-9a-z]', '', tolower(smallRentDelta$subregion[smallRentDelta$delta == min(smallRentDelta$delta)])),".png", sep ="")`)
 
 ### As of `r max(coloradoRent$year)`, what are rent prices?
 

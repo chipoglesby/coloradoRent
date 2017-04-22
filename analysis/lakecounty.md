@@ -8,9 +8,17 @@ Between the 1996 and the 2012 rent increased by 53.42% in the Lake County area.
 Smallest Rent Delta
 -------------------
 
+| subregion   | apartmenttype |  delta|
+|:------------|:--------------|------:|
+| Lake County | 2 Bed, 2 Bath |  20.36|
+
 ![](../images/rentDecrease/lakecounty.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion   | apartmenttype |   delta|
+|:------------|:--------------|-------:|
+| Lake County | Efficiency    |  100.99|
 
 ![](../images/rentIncrease/lakecounty.png)

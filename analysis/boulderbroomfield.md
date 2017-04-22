@@ -8,9 +8,17 @@ Between the 1998 and the 2015 rent increased by 125.53% in the Boulder/Broomfiel
 Smallest Rent Delta
 -------------------
 
+| subregion          | apartmenttype |  delta|
+|:-------------------|:--------------|------:|
+| Boulder/Broomfield | Efficiency    |  79.94|
+
 ![](../images/rentDecrease/boulderbroomfield.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion          | apartmenttype |   delta|
+|:-------------------|:--------------|-------:|
+| Boulder/Broomfield | 3 Bed         |  185.78|
 
 ![](../images/rentIncrease/boulderbroomfield.png)

@@ -8,9 +8,17 @@ Between the 1996 and the 2015 rent increased by 102.46% in the Durango area.
 Smallest Rent Delta
 -------------------
 
+| subregion | apartmenttype |  delta|
+|:----------|:--------------|------:|
+| Durango   | 2 Bed, 2 Bath |  37.38|
+
 ![](../images/rentDecrease/durango.png)
 
 Largest Rent Delta
 ------------------
+
+| subregion | apartmenttype |   delta|
+|:----------|:--------------|-------:|
+| Durango   | Efficiency    |  128.99|
 
 ![](../images/rentIncrease/durango.png)
