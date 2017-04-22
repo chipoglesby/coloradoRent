@@ -27,3 +27,8 @@ The most expensive apartment to rent is a 1 bed in Boulder/Broomfield which goes
 On the opposite end of the sepectrum, you can rent a very affordable efficiency in Grand Junction for $258.78 per month!
 
 ![](../images/minRentgrandjunction.png)
+
+Full Analysis
+-------------
+
+knitr::kable(coloradoRentAll %&gt;% distinct(subregion, paste("../analysis/", tolower(gsub("\[^0-9a-zA-Z\]", "", subregion)), ".md", sep = "")))
